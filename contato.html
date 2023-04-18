@@ -1,0 +1,84 @@
+<html>
+    <head>
+       <title>Meu site HTML</title>
+    </head>
+    <body style="margin: 0;">
+      <div>
+        <header style="background-color: rgba(0, 255, 255, 0.678); text-align: center; padding: 10px; font-size: 30px;" id="topo">
+          <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+          <h3>Tutorial para Iniciantes</h3>
+        </header>
+        <nav>
+          <ul style="list-style: none; display: flex; justify-content: space-between; background-color: rgba(0, 158, 158, 0.678);">
+            <li style="flex-grow: 1;"><a href="index.html" style="color: #fff; text-decoration: none;">Início</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#html" style="color: #fff; text-decoration: none;">HTML</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#tabela" style="color: #fff; text-decoration: none;">Tabela e Lista</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#sobre" style="color: #fff; text-decoration: none;">Sobre HTML, CSS e JS</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#rodape" style="color: #fff; text-decoration: none;">Links</a></li>
+            <li style="flex-grow: 1;"><a href="contato.html" style="color: #fff; text-decoration: none;">Contato</a></li>
+          </ul>
+        </nav>
+        <div style="margin-left: 20px;">
+        <h1>Bem vindo a tela de cadastro!</h1>
+        <h3>Favor preencher seus dados para que possamos entrar em contato!</h3>
+        <form action="obrigado.html" method="get">
+           <label>Nome:</label>
+           <input type="text" name="nome"><br>
+           <label>E-mail:</label>
+           <input type="email" name="email"><br>
+           <label>Assunto:</label>
+           <select name="assunto">
+            <option value="valor1" selected>Elogio</option>
+            <option value="valor2">Sugestão</option>
+            <option value="valor3">Crítica</option>
+            </select><br><br>
+            <label>Mensagem:</label>
+            <textarea title="Mensagem" required></textarea><br><br>
+            <input type="checkbox" value="termo" required><label>Concordo com os Termos de pivacidade do Site.</label><br>
+            <br><input type="submit" value="Enviar mensagem">
+        </form>
+    </div>
+      <hr>
+      <footer id="rodape" style="padding: auto;">
+        <div style="display: grid; grid-template-columns: auto auto auto auto; align-items: flex-start; padding: auto;">
+            <div style="background-color: rgba(7, 82, 82, 0.808);height: 150px;">
+                <h3>Sobre</h3>
+                <ul>
+                  <li><a href="#topo"> Topo</a></li>
+                  <li>Todos os direitos reservados</li> 
+                  <li><a href="contato.html"> Fale conosco</a></li>   
+                </ul>                
+              </div>
+            <div style="background-color: rgba(39, 160, 160, 0.87);height: 150px;">
+                <h3>Referências</h3>
+                <ul>
+                  <li><a href="https://www.w3schools.com/" target="_blank"> W3School</a></li>
+                  <li><a href="https://www.alura.com.br/" target="_blank"> Alura</a></li> 
+                  <li><a href="https://www.youtube.com/@profdanielbrandao" target="_blank" > Youtube</a></li>   
+                </ul>  
+              </div>
+            <div style="background-color: rgb(7, 82, 82, 0.808);height: 150px;">
+                <h3>Tutoriais</h3>
+                <ul>
+                  <li>Design</a></li>
+                  <li>Marketing</a></li>
+                  <li>Programação</a></li>
+                  <li>Tutoriais</a></li>
+                </ul>
+              </div>
+            <div style="background-color: rgba(39, 160, 160, 0.87);height: 150px;">
+                <h3>Outros Links</h3>
+                <ul>
+                  <li><a href="https://www.devmedia.com.br/html-basico-codigos-html/16596" target="_blank"> Dicas HTML</a></li>
+                  <li><a href="https://www.w3.org/Style/Examples/007/Overview.pt_BR.html" target="_blank"> Dicas CSS</a></li> 
+                  <li><a href="https://imasters.com.br/back-end/15-dicas-e-truques-da-linguagem-javascript" target="_blank" > Dicas JS</a></li>   
+                </ul>  
+              </div>
+        </div>
+          <div style="width: 100%; text-align: center;">
+            <p> Rafael Fernandes Dutra Cabral Ventorin</p>          
+          </div>
+     </footer>
+    </body>
+
+</html>
